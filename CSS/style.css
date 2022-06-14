@@ -38,6 +38,9 @@ body{
    
   
    }
+   .nav_p{
+     padding-right: 50px;
+   }
     aside{
         background-color:#ffcccc;
         width: 350px;
@@ -62,9 +65,10 @@ body{
 padding-bottom: 25px;
     }
     p{
-        padding-right: 50px;
+       
     }
     .about_me{
+        margin-top: 30px;
         padding-left: 10px;
     }
     .container_main{
@@ -84,12 +88,25 @@ padding-bottom: 25px;
         padding-left: 10px;
     }
     .code{
-       
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
         background-color: black;
         color: white;
         padding-top: 10px;
         padding-bottom: 20px;
+        padding-left: 10px;
     }
-    .example_code{
-       
-    }
+   .languages_li{
+    display: block;
+    text-align: left;
+   }
+
+  .container_footer{
+    height: 200px;
+   background-color: #3b5d79;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
