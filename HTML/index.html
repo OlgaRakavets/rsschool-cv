@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,51 +8,101 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <title>CV</title>
 </head>
+
 <body>
     <div class="container">
-    <div class="header_container">
-   <header>
-   
-   <div class="name"> <h1>Olga Rakavets-Tureiskaya</h1>
-</div>
-    <div class="who"><h2>Junior Frontend Developer</h2>
+        <div class="header_container">
+            <header>
+
+                <div class="name">
+                    <h1>Olga Rakavets-Tureiskaya</h1>
+                </div>
+                <div class="who">
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+            </header>
+            
+        </div>
+        <nav class="nav">
+                <p class="nav_p">About</p>
+                <p class="nav_p">Code</p>
+                <p class="nav_p">Skills</p>
+                <p class="nav_p">Contact</p>
+            </nav>
+        <main class="container_main">
+
+            <aside>
+                <img class="awatar" src="../IMG/avatar.jpg" alt="Awatar" width="250" height="380px" srcset="">
+                <div>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Belarusian National University, Sociology</li>
+                        <li>Collegium Da Vinci, Frontend developer (Postgraduate)</li>
+                    </ul>
+
+              
+                </div>
+                <div>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript Basics</li>
+                        <li>Git Basics</li>
+                        <li>Visual Studio Code</li>
+                        <li>Adobe Photoshop </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                   
+                        <p>Phone:+00 000 0000000</p>
+                        <p>E-mail:email@gmail.com</p>
+                </div>
+            </aside>
+            <article>
+                <section>
+                    <div>
+                        <h3>About Me</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h4>Languages:</h4>
+                        <p> Belorussian - Native
+                            + Russian - Native
+                            + Polish - Upper/post-intermediate
+                            + English - Beginner (I started learning English.)</p>
+                    </div>
+                    <div>
+                        <h3>Code example</h3>
+                        <pre><code>function Losuj() {
+                            for(let i=0;i<3;i++){
+                              fetch("https://www.themealdb.com/api/json/v1/1/random.php")
+                                .then((res) => res.json())
+                                .then((res) => {
+                                  console.log(res);
+                            
+                                  const strSource = res.meals[0].strMealThumb;
+                                  const newTitle = res.meals[0].strMeal;
+                                  const Source =res.meals[0].strSource
+                                  const Youtube = res.meals[0].strYoutube
+                                  document.getElementsByClassName("new_title")[i].innerText = newTitle;
+                                  document.getElementsByClassName("img_random")[i].src = strSource;
+                                  document.getElementsByClassName("Source")[i].href = Source
+                                  document.getElementsByClassName("Youtube_link")[i].href=Youtube
+                                });
+                                }
+                          }
+                          
+                          $random_button.addEventListener("click", () => {
+                              Losuj()
+                          });</code></pre>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer class="container_footer">
+            rsschool
+        </footer>
     </div>
-   </header>
-   <nav class="nav"> 
-    <span>About</span>
-    <span>Code</span>
-    <span>Skills</span>
-    <span>Contact</span>
-   </nav>
-</div>
-<main class="container_main">
-    
-   <aside>
-    <img class="awatar" src="../IMG/avatar.jpg" alt="Awatar" width="250" height="380px" srcset="">
-<div>
-    <span>Education</span>
-</div>
-<div>
-    <span>Skills</span>
-</div>
-<div>
-    <span>Contact</span>
-</div>
-   </aside>
-   <article>
-    <section>
-        <div>
-            <h3>About Me</h3>
-            <h4>Languages:</h4>
-        </div>
-           <div> <h3>Code example</h3>
-        </div>
-            </section>
-   </article>
-</main>
-   <footer class="container_footer">
-    rsschool
-   </footer>
-</div>
 </body>
+
 </html>
