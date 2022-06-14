@@ -10,7 +10,7 @@ body{
 
     width: 100%;
     max-width: 1000px;
-    height: 300px;
+    
     border: 1.5px solid rgb(233, 182, 16);
     margin: 0 auto;
     margin-left: auto;
@@ -19,6 +19,7 @@ body{
 }
 .header_container{
     background-color:#3b5d79;
+    height:200px;
     
     }
     header{display: flex;
@@ -26,11 +27,69 @@ body{
         align-items: center;
         align-content: center;
     }
-   .nav{
+   .nav{width: 100%;
     background-color:#ffcccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+   
+  
    }
     aside{
         background-color:#ffcccc;
-        width: 300px;
+        width: 350px;
+        height: auto;
+        text-align: center;
     }
-    
+    .skills{
+        display: block;
+        text-align: center;
+
+
+    }
+    .aside_ul{
+        display: block;
+        text-align: left;
+       
+    }
+    .aside_li{
+        padding-bottom: 3px;
+    }
+    .emaile{
+padding-bottom: 25px;
+    }
+    p{
+        padding-right: 50px;
+    }
+    .about_me{
+        padding-left: 10px;
+    }
+    .container_main{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0px;
+       
+       
+    }
+    .about_h{
+        text-align: center;
+        justify-content: center;
+    }
+    .languages{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .code{
+       
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .example_code{
+       
+    }
