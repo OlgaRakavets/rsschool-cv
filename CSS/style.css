@@ -1,0 +1,165 @@
+body {
+    font-size: larger;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 245);
+}
+
+article {
+    margin-top: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid rgb(252, 239, 195);
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 243, 238);
+}
+
+.header_container {
+    background-color: #3b5d79;
+    height: 200px;
+}
+
+.name {
+    color: white;
+    margin-top: 20px;
+}
+
+.who {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav {
+    width: 100%;
+    background-color: #ffcccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.nav_p {
+    padding-right: 50px;
+}
+
+aside {
+    background-color: #ffcccc;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+
+.skills {
+    display: block;
+    text-align: center;
+}
+
+.aside_ul {
+    display: block;
+    text-align: left;
+
+}
+
+.aside_li {
+    padding-bottom: 3px;
+}
+
+.emaile {
+    padding-bottom: 25px;
+}
+
+.about_me {
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.container_main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.languages {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.about_h {
+    text-align: center;
+    justify-content: center;
+}
+
+.languages {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.code {
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: #3b5d79;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.languages_li {
+    display: block;
+    text-align: left;
+}
+
+.example_cod {
+    margin-top: 50px;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #3b5d79;
+}
+
+.rsshcool {
+    padding-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer_img {
+    display: flex;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.git {
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+.created {
+    color: white;
+    font-size: larger;
+    margin-left: 20px;
+}
